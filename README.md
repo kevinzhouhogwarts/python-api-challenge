@@ -11,11 +11,11 @@ For the OpenWeatherMap API, the 5 day weather forecast API was chosen, since it 
 
 Because weather trends tend to mirror across the equator, city weather data was split between Northern and Southern hemisphere subsets, then plotted and regressed separately.
 
-For the Geoapify API, query parameters were included in the request URL using the params parameter of the requests.get() method.
+For the Geoapify API, query parameters were included in the request URL using the params parameter of the requests.get() method. The categories parameter was changed to the broader "accommodation" key in order to return slightly more hotels than using the "accommodation.hotel" key.
 
 ## Findings
 There was an obvious correlation between maximum temperature on the forecast date and latitude:
 ![Latitude vs Max Temperature](output_data/Fig1.png)
 
 However, other metereological variables were less correlated with latitude, such as cloud cover in the Southern Hemisphere:
-![Latitude vs Cloudiness (Southern Hemisphere)](output_data/Fig-Latitude_vs_Cloudiness.png)
+![Latitude vs Cloudiness](output_data/Fig-Latitude_vs_Cloudiness.png)
