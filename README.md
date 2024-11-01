@@ -18,4 +18,4 @@ There was an obvious correlation between maximum temperature on the forecast dat
 ![Latitude vs Max Temperature](output_data/Fig1.png)
 
 However, other metereological variables were less correlated with latitude, such as cloud cover in the Southern Hemisphere:
-![Latitude vs Cloudiness (Southern Hemisphere)]("output_data/Fig-Latitude vs Cloudiness.png")
+![Latitude vs Cloudiness (Southern Hemisphere)](output_data/Fig-Latitude_vs_Cloudiness.png)
