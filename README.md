@@ -1,7 +1,8 @@
 # python-api-challenge
 
 ## Introduction
-Using an API call, weather data for several cities was retrieved. Regression was performed and visually on scatter plots of several weather variables versus latitude.
+Using an API call, weather data for several cities was retrieved. Then, regression was performed on scatter plots of several weather variables versus latitude.
+Further, a geolocation API was used to retrieve places of interest near a subset of cities.
 
 ## Method
 The supplied code for generating latitudes and longitudes and for identifying the cities closest to those coordinate pairs was used.
